@@ -4,18 +4,20 @@
 
 body{
     position: relative;
+    background: salmon;
     margin: 0px;
     padding: 0px;
 }
 
 
-header > img{
-    
-    width: 220px;
-    display: block;
-    margin: auto;
+#container{
+    background-image: url(/imagens/porta.jpg);
+    position: absolute;
+    background: rgb(114, 250, 205);
+    width: 200px;
+    height: 200px;
 }
 
-header > h1 {
-    text-align: center;
-    margin: auto;}
+#conteudo{
+    background: url(/imagens/porta.jpg);
+}
