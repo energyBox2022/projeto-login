@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+
+
+body{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+header > img{
+    
+    width: 220px;
+    display: block;
+    margin: auto;
+}
+
+header > h1 {
+    text-align: center;
+    margin: auto;}
