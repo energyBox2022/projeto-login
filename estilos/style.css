@@ -32,7 +32,7 @@ section#login{
 
     background-color: rgb(239, 234, 216);
     width: 270px;
-    height: 550px;
+    height: 570px;
     border-radius: 20px;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.507) ;
 
@@ -62,5 +62,40 @@ div#formulario > h1{
 div#formulario > p{
     font-size: 0.8em;
     text-align: center;
+    margin-bottom: 15px;
+
+}
+
+form > div.campo{
+    margin-bottom: 8px;
+}
+
+form > input[type=submit]{
+    display: block;
+    font-size: 1em;
+    width: 70%;
+    height: 30px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    background-color: rgb(208, 201, 192);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+form > input[type=submit]:hover{
+    background-color: rgb(175, 169, 162);
+    
+}
+
+form > a.botao{
+    display: block;
+    text-align: center;
+    font-size: 0.7em;
+
+    cursor: pointer;
+    
 
 }
