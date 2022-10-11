@@ -31,8 +31,8 @@ section#login{
 
 
     background-color: rgb(239, 234, 216);
-    width: 250px;
-    height: 500px;
+    width: 270px;
+    height: 550px;
     border-radius: 20px;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.507) ;
 
@@ -54,3 +54,13 @@ section#login > div#formulario {
 }
 
 
+div#formulario > h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#formulario > p{
+    font-size: 0.8em;
+    text-align: center;
+
+}
